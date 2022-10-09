@@ -43,6 +43,7 @@ jobs:
         build-args: |-
           RELEASE=${{ matrix.release }}
           PROJECT=heat
+          PROJECT_REPO=https://github.com/openstack/heat
           PROJECT_REF=${{ env.PROJECT_REF }}
           EXTRAS=
           PROFILES=
